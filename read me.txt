@@ -1,0 +1,37 @@
+环境配置：
+win7 matlab2014b vs profession2013 caffe
+(caffe下载网址：https://github.com/Microsoft/caffe)
+
+环境配置过程参考：（https://www.cnblogs.com/byteHuang/p/6909674.html）
+
+过程中第（4）步需要用到的NugetPackages文件夹下载地址：
+（链接：https://pan.baidu.com/s/1sfmfpAc6uaG7y-AlpYUIxw 密码：czk9）
+
+
+
+文件清单：
+final.m    活体检测主程序
+final.fig  活体检测matlab的GUI文件
+moerDetection.m   摩尔检测子程序（程序中需要更改下面两个文件的路径）
+ResNet-50-deploy.prototxt   摩尔检测用到的ResNet50网络结构文件
+resnet-50_iter_20000.caffemodel   训练好的摩尔检测的ResNet50网络的caffe模型
+mean.mat   摩尔检测子程序用到的数据文件
+test.m    黑框检测子程序
+run.m   SDM定位人脸特征点，输出上下眼特征点坐标
+lib文件夹  SDM用到的库
+train.m   SDM训练子程序
+300W_train_images.txt   SDM训练数据记录文件
+300W_train_pts.txt      SDM训练数据记录文件
+300w.mat    SDM子程序用到的数据文件
+MakeVideo.m  开启摄像头录制视频子程序
+
+
+程序运行流程见  毕业论文图5.1
+程序只需要改完路径，直接运行主程序即可。
+
+
+
+
+
+
+				
